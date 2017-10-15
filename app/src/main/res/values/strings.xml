@@ -2,6 +2,7 @@
 <resources>
     <string name="app_name">Dota 2 Android App</string>
     <string name="activity_live_matches">Live Matches</string>
+    <string name="activity_heroes">Heroes</string>
 
     <!-- A valid Steam Web API key. Get yours at https://steamcommunity.com/dev/apikey -->
     <string name="api_key"></string>

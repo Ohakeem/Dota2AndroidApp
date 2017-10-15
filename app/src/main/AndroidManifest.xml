@@ -28,5 +28,10 @@
             android:label="@string/activity_live_matches"
             android:parentActivityName="github.com.rhacco.dota2androidapp.activities.MainActivity">
         </activity>
+        <activity
+            android:name=".activities.HeroesActivity"
+            android:label="@string/activity_heroes"
+            android:parentActivityName=".activities.MainActivity">
+        </activity>
     </application>
 </manifest>

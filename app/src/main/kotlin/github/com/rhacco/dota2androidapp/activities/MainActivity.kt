@@ -57,6 +57,9 @@ class MainActivity : BaseLifecycleActivity<HeroesViewModel>() {
         showLiveMatchesButton.setOnClickListener {
             startActivity(Intent(this, LiveMatchesActivity::class.java))
         }
+        heroesButton.setOnClickListener {
+            startActivity(Intent(this, HeroesActivity::class.java))
+        }
         setFavHeroButton.setOnClickListener { setNewFavoriteHero() }
     }
 
