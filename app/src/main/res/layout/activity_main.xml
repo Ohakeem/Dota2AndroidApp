@@ -8,6 +8,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" android:text="@string/activity_live_matches"/>
     <Button
+        android:id="@+id/heroesButton"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="@string/activity_heroes"/>
+    <Button
         android:id="@+id/setFavHeroButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" android:text="@string/button_set_fav_hero"/>
